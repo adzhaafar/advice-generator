@@ -3,6 +3,7 @@
 const adviceId = document.querySelector('.advice');
 const quote = document.querySelector('.quote');
 const button = document.querySelector('.btn');
+const divider = document.querySelector('.divider');
 
 
 

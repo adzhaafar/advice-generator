@@ -1,11 +1,15 @@
 body {
+  position: relative;
   background-color: hsl(218, 23%, 16%);
 }
 
 .main-div {
+  position: relative;
+  top: 50%;
+  margin-top: -50%;
   background-color: hsl(217, 19%, 24%);
   margin: auto;
-  height: 34%;
+  height: 40%;
   width: 34%;
   text-align: center;
   border-radius: 25px;
@@ -14,15 +18,14 @@ body {
 }
 
 .advice {
-  padding-top: 1.25em;
+  padding-top: 0.5em;
   color: hsl(150, 100%, 66%);
   font-family: "Manrope", sans-serif;
   font-size: 1rem;
 }
 
 .divider {
-  display: block;
-  margin: auto;
+  width: 100%;
 }
 
 .quote {
@@ -30,15 +33,16 @@ body {
   font-size: 1.5rem;
   color: hsl(193, 38%, 86%);
   font-family: "Manrope", sans-serif;
-  padding-bottom: 1.25em;
 }
 
 .btn {
+  position: relative;
+  top: 27px;
   background-color: hsl(150, 100%, 66%);
   border-radius: 50px;
   padding: 1.0625em 1.25em;
   border: none;
-  margin-top: 2.75em;
+  margin-top: 1.15em;
   justify-content: center;
 }
 
@@ -49,3 +53,6 @@ body {
 
 // - Mobile: 375px
 // - Desktop: 1440px
+
+// fix the button on the same place relative to the main div element
+// fix the issue with the divisor going out of bounds on smaller screens (media query)
