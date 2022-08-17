@@ -34,9 +34,6 @@ desktop-version.png
 mobile-version.png
 active-state.png
 
-### Links
-
-- Solution URL: http://127.0.0.1:5502/advice-generator/index.html
 
 ## My process
 
@@ -62,8 +59,3 @@ active-state.png
 - Learn more responsive design techniques
 - Practive writing asynchronous javascript and working with promises
 
-### Useful resources
-
-- [W3Schools](https://www.w3schools.com) - Great reference for html, css & js
-- [Asynchronous JavaScript Course (Async/Await, Promises, Callbacks)](https://youtu.be/ZYb_ZU8LNxs) - This is an amazing video explaining asynchronous javascript concept through an example, the teacher is really good at explaining.
-- [Introduction To Responsive Web Design - HTML & CSS Tutorial](https://youtu.be/srvUrASNj0s) - A very good responsive design course.
